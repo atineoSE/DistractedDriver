@@ -1,0 +1,13 @@
+xcuserdata/
+.DS_Store
+.Trashes
+*.lock
+*~.nib
+build/
+.jpg
+DistractedDriverCreateML/DistractedDriverCreateML/TestData/
+DistractedDriverCreateML/DistractedDriverCreateML/TrainingData/
+DistractedDriverCreateML/DistractedDriverCreateML/ValidationData/
+data/
+python/Model
+DistractedDriverCreateML/DistractedDriverCreateML/Models/

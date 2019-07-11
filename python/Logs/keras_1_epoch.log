@@ -1,0 +1,54 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /Users/adriantineo/dev/python/virtualenv/coreml3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /Users/adriantineo/dev/python/virtualenv/coreml3/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-28 11:09:05.362237: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Found 80 images belonging to 10 classes.
+Found 20 images belonging to 10 classes.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input (InputLayer)           (None, 480, 360, 3)       0         
+_________________________________________________________________
+conv_1 (Conv2D)              (None, 478, 358, 128)     3584      
+_________________________________________________________________
+pool_1 (MaxPooling2D)        (None, 239, 179, 128)     0         
+_________________________________________________________________
+conv_2 (Conv2D)              (None, 237, 177, 64)      73792     
+_________________________________________________________________
+pool_2 (MaxPooling2D)        (None, 118, 88, 64)       0         
+_________________________________________________________________
+conv_3 (Conv2D)              (None, 116, 86, 32)       18464     
+_________________________________________________________________
+pool_3 (MaxPooling2D)        (None, 58, 43, 32)        0         
+_________________________________________________________________
+conv_4 (Conv2D)              (None, 56, 41, 16)        4624      
+_________________________________________________________________
+pool_4 (MaxPooling2D)        (None, 28, 20, 16)        0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 8960)              0         
+_________________________________________________________________
+fc_1 (Dense)                 (None, 1024)              9176064   
+_________________________________________________________________
+softmax (Dense)              (None, 10)                10250     
+=================================================================
+Total params: 9,286,778
+Trainable params: 9,286,778
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/1
+
+1/5 [=====>........................] - ETA: 49s - loss: 2.3074 - acc: 0.1250
+2/5 [===========>..................] - ETA: 29s - loss: 2.8087 - acc: 0.0625
+3/5 [=================>............] - ETA: 17s - loss: 2.6691 - acc: 0.0417
+4/5 [=======================>......] - ETA: 8s - loss: 2.5978 - acc: 0.0469 
+5/5 [==============================] - 42s 8s/step - loss: 2.5502 - acc: 0.0375 - val_loss: 2.3075 - val_acc: 0.1250
+Loss: 2.3045144081115723 Accuracy: 0.125
+
+real	0m50.083s
+user	3m49.273s
+sys	0m41.260s

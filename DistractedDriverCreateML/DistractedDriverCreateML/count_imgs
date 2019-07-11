@@ -1,0 +1,15 @@
+#!/bin/bash
+for data in "TrainingData" "ValidationData" "TestData"
+do
+	echo "Counting $data for categories c0-c9"
+	for category in "c0" "c1" "c2" "c3" "c4" "c5" "c6" "c7" "c8" "c9"
+	do
+		ls -1 $data/$category | wc -l
+	done
+done
+
+echo "Getting size for data"
+for data in "TrainingData" "ValidationData" "TestData"
+do
+        du -sh $data
+done

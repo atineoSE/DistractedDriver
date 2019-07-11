@@ -1,0 +1,27 @@
+Test Suite 'Selected tests' started at 2019-06-01 10:37:42.751
+Test Suite 'DistractedDriverInferenceTests.xctest' started at 2019-06-01 10:37:42.752
+Test Suite 'DistractedDriverInferencePerformanceTests' started at 2019-06-01 10:37:42.753
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifier]' started.
+Using scaleFill
+Classifying 4468 images
+Classifications collected for native model:
+c0 : 494
+c1 : 263
+c2 : 383
+c3 : 800
+c4 : 479
+c5 : 295
+c6 : 490
+c7 : 404
+c8 : 455
+c9 : 405
+Failed classifications (could not make classification): 0
+Classification errors: (871) / (4468)
+Average classification time 0.09735429118868487
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifier]' passed (435.306 seconds).
+Test Suite 'DistractedDriverInferencePerformanceTests' passed at 2019-06-01 10:44:58.061.
+	 Executed 1 test, with 0 failures (0 unexpected) in 435.306 (435.308) seconds
+Test Suite 'DistractedDriverInferenceTests.xctest' passed at 2019-06-01 10:44:58.063.
+	 Executed 1 test, with 0 failures (0 unexpected) in 435.306 (435.311) seconds
+Test Suite 'Selected tests' passed at 2019-06-01 10:44:58.066.
+	 Executed 1 test, with 0 failures (0 unexpected) in 435.306 (435.314) seconds

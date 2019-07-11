@@ -1,0 +1,37 @@
+No arguments are passed. Using default.
+2019-05-31 09:39:12.643426+0200 DistractedDriverCreateML[13085:11399857] [espresso] [Espresso::handle_ex_] exception=Unsupported engine type
+2019-05-31 09:39:12.814628+0200 DistractedDriverCreateML[13085:11399857] flock failed to lock maps file: errno = 35
+Classifying 4467 images with native model
+2019-05-31 09:39:13.713461+0200 DistractedDriverCreateML[13085:11399857] flock failed to lock maps file: errno = 35
+Classifications collected for native model:
+c0 : 492
+c1 : 253
+c2 : 381
+c3 : 805
+c4 : 487
+c5 : 301
+c6 : 487
+c7 : 410
+c8 : 442
+c9 : 409
+Failed classifications (could not make classification): 0
+Mean error: 0.19476158495634655
+Errors: 870 / 4467 
+Average classification time 0.18678020037925827
+Classifying 4467 images with keras model
+Classifications collected for keras model:
+c0 : 634
+c1 : 303
+c2 : 156
+c3 : 229
+c4 : 155
+c5 : 1307
+c6 : 321
+c7 : 463
+c8 : 399
+c9 : 500
+Failed classifications (could not make classification): 0
+Mean error: 0.5265278710543989
+Errors: 2352 / 4467
+Average classification time 0.12188161046600512
+Program ended with exit code: 0

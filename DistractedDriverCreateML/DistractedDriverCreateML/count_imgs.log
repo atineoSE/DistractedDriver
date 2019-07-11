@@ -1,0 +1,37 @@
+Counting TrainingData for categories c0-c9
+    1854
+    1704
+    1689
+    1759
+    1745
+    1737
+    1725
+    1455
+    1443
+    1596
+Counting ValidationData for categories c0-c9
+     116
+     101
+     114
+     117
+     125
+     115
+     122
+     115
+      85
+      96
+Counting TestData for categories c0-c9
+     519
+     462
+     514
+     470
+     456
+     460
+     478
+     432
+     383
+     437
+Getting size for data
+708M	TrainingData
+ 47M	ValidationData
+196M	TestData

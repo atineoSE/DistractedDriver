@@ -1,0 +1,129 @@
+Test Suite 'Selected tests' started at 2019-06-01 11:07:15.080
+Test Suite 'DistractedDriverInferenceTests.xctest' started at 2019-06-01 11:07:15.081
+Test Suite 'DistractedDriverInferencePerformanceTests' started at 2019-06-01 11:07:15.081
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionKerasClassifierCenterCrop]' started.
+Using model:
+<VNCoreMLModel: 0x281ea43f0>
+Using centerCrop
+Classifying 4467 images
+Classifications collected for model:
+c0 : 634
+c1 : 303
+c2 : 156
+c3 : 229
+c4 : 155
+c5 : 1307
+c6 : 321
+c7 : 462
+c8 : 399
+c9 : 501
+Failed classifications (could not make classification): 0
+Classification errors: (2352) / (4467)
+Average classification time 0.02188811463372457
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionKerasClassifierCenterCrop]' passed (98.432 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionKerasClassifierScaleFill]' started.
+Using model:
+<VNCoreMLModel: 0x281eb7db0>
+Using scaleFill
+Classifying 4467 images
+Classifications collected for model:
+c0 : 610
+c1 : 409
+c2 : 448
+c3 : 407
+c4 : 480
+c5 : 418
+c6 : 437
+c7 : 514
+c8 : 341
+c9 : 403
+Failed classifications (could not make classification): 0
+Classification errors: (404) / (4467)
+Average classification time 0.02404531587656643
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionKerasClassifierScaleFill]' passed (107.736 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCenterCrop]' started.
+Using model:
+<VNCoreMLModel: 0x281e88150>
+Using centerCrop
+Classifying 4467 images
+Classifications collected for model:
+c0 : 487
+c1 : 254
+c2 : 379
+c3 : 816
+c4 : 479
+c5 : 295
+c6 : 491
+c7 : 406
+c8 : 444
+c9 : 416
+Failed classifications (could not make classification): 0
+Classification errors: (910) / (4467)
+Average classification time 0.021385019461207137
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCenterCrop]' passed (95.684 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierScaleFill]' started.
+Using model:
+<VNCoreMLModel: 0x281e88230>
+Using scaleFill
+Classifying 4467 images
+Classifications collected for model:
+c0 : 487
+c1 : 254
+c2 : 379
+c3 : 816
+c4 : 479
+c5 : 295
+c6 : 491
+c7 : 406
+c8 : 444
+c9 : 416
+Failed classifications (could not make classification): 0
+Classification errors: (910) / (4467)
+Average classification time 0.027917837466813585
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierScaleFill]' passed (124.873 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeSpecClassifierCenterCrop]' started.
+Using model:
+<VNCoreMLModel: 0x281e849a0>
+Using centerCrop
+Classifying 4467 images
+Classifications collected for model:
+c0 : 487
+c1 : 254
+c2 : 379
+c3 : 816
+c4 : 479
+c5 : 295
+c6 : 491
+c7 : 406
+c8 : 444
+c9 : 416
+Failed classifications (could not make classification): 0
+Classification errors: (910) / (4467)
+Average classification time 0.030623815992093604
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeSpecClassifierCenterCrop]' passed (137.164 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeSpecClassifierScaleFill]' started.
+Using model:
+<VNCoreMLModel: 0x281e88380>
+Using scaleFill
+Classifying 4467 images
+Classifications collected for model:
+c0 : 487
+c1 : 254
+c2 : 379
+c3 : 816
+c4 : 479
+c5 : 295
+c6 : 491
+c7 : 406
+c8 : 444
+c9 : 416
+Failed classifications (could not make classification): 0
+Classification errors: (910) / (4467)
+Average classification time 0.03141750725211781
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeSpecClassifierScaleFill]' passed (140.639 seconds).
+Test Suite 'DistractedDriverInferencePerformanceTests' passed at 2019-06-01 11:18:59.613.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 704.528 (704.533) seconds
+Test Suite 'DistractedDriverInferenceTests.xctest' passed at 2019-06-01 11:18:59.614.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 704.528 (704.533) seconds
+Test Suite 'Selected tests' passed at 2019-06-01 11:18:59.614.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 704.528 (704.534) seconds

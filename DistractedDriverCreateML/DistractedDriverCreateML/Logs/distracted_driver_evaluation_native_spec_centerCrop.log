@@ -1,0 +1,19 @@
+No arguments are passed. Using default.
+2019-05-31 16:47:02.606155+0200 DistractedDriverCreateML[38128:13074892] [espresso] [Espresso::handle_ex_] exception=Unsupported engine type
+2019-05-31 16:47:02.642109+0200 DistractedDriverCreateML[38128:13074892] flock failed to lock maps file: errno = 35
+Classifying 4467 images with native model
+2019-05-31 16:47:02.939974+0200 DistractedDriverCreateML[38128:13074892] flock failed to lock maps file: errno = 35
+Classifications collected for native model:
+c0 : 492
+c1 : 253
+c2 : 381
+c3 : 805
+c4 : 487
+c5 : 301
+c6 : 487
+c7 : 410
+c8 : 442
+c9 : 409
+Failed classifications (could not make classification): 0
+Classification errors: (870) / (4467)
+Average classification time 0.18282741483009873

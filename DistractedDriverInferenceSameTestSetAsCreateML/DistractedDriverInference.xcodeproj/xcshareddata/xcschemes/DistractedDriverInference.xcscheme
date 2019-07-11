@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1020"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0BE42443229EE8C700D8841E"
+               BuildableName = "DistractedDriverInference.app"
+               BlueprintName = "DistractedDriverInference"
+               ReferencedContainer = "container:DistractedDriverInference.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0BE42457229EE8C900D8841E"
+               BuildableName = "DistractedDriverInferenceTests.xctest"
+               BlueprintName = "DistractedDriverInferenceTests"
+               ReferencedContainer = "container:DistractedDriverInference.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPerformanceKerasClassifier()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPerformanceNativeClassifier()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionKerasClassifierCenterCrop()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionKerasClassifierScaleFill()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeClassifier()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeClassifierCenterCrop()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeClassifierScaleFill()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeSpecClassifierCenterCrop()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeSpecClassifierScaleFill()">
+               </Test>
+               <Test
+                  Identifier = "DistractedDriverInferencePerformanceTests/testPrecisionNativeSpecClassifierScaleFillNoVision()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0BE42443229EE8C700D8841E"
+            BuildableName = "DistractedDriverInference.app"
+            BlueprintName = "DistractedDriverInference"
+            ReferencedContainer = "container:DistractedDriverInference.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0BE42443229EE8C700D8841E"
+            BuildableName = "DistractedDriverInference.app"
+            BlueprintName = "DistractedDriverInference"
+            ReferencedContainer = "container:DistractedDriverInference.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0BE42443229EE8C700D8841E"
+            BuildableName = "DistractedDriverInference.app"
+            BlueprintName = "DistractedDriverInference"
+            ReferencedContainer = "container:DistractedDriverInference.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

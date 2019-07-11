@@ -1,0 +1,27 @@
+Test Suite 'Selected tests' started at 2019-06-01 10:21:32.172
+Test Suite 'DistractedDriverInferenceTests.xctest' started at 2019-06-01 10:21:32.172
+Test Suite 'DistractedDriverInferencePerformanceTests' started at 2019-06-01 10:21:32.173
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifier]' started.
+Classifying 4468 images
+2019-06-01 10:21:53.923986+0200 DistractedDriverInference[2548:1029599] XPC connection interrupted
+Classifications collected for native model:
+c0 : 488
+c1 : 254
+c2 : 379
+c3 : 816
+c4 : 479
+c5 : 295
+c6 : 491
+c7 : 406
+c8 : 444
+c9 : 416
+Failed classifications (could not make classification): 0
+Classification errors: (909) / (4468)
+Average classification time 0.02896196082327765
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifier]' passed (129.788 seconds).
+Test Suite 'DistractedDriverInferencePerformanceTests' passed at 2019-06-01 10:23:41.962.
+	 Executed 1 test, with 0 failures (0 unexpected) in 129.788 (129.789) seconds
+Test Suite 'DistractedDriverInferenceTests.xctest' passed at 2019-06-01 10:23:41.963.
+	 Executed 1 test, with 0 failures (0 unexpected) in 129.788 (129.791) seconds
+Test Suite 'Selected tests' passed at 2019-06-01 10:23:41.964.
+	 Executed 1 test, with 0 failures (0 unexpected) in 129.788 (129.792) seconds

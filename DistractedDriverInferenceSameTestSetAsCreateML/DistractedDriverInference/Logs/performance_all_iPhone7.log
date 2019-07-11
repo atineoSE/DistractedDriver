@@ -1,0 +1,41 @@
+Test Suite 'Selected tests' started at 2019-05-30 16:30:01.593
+Test Suite 'DistractedDriverInferenceTests.xctest' started at 2019-05-30 16:30:01.594
+Test Suite 'DistractedDriverInferencePerformanceTests' started at 2019-05-30 16:30:01.594
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPerformanceKerasClassifier]' started.
+Classifying 19048 images
+Classifications collected:
+c0 : 2116
+c1 : 959
+c2 : 722
+c3 : 1048
+c4 : 1125
+c5 : 5778
+c6 : 1215
+c7 : 1971
+c8 : 1557
+c9 : 2557
+Failed classifications: 0
+Average classification time 0.11192800645966432
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPerformanceKerasClassifier]' passed (2133.363 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPerformanceNativeClassifier]' started.
+Classifying 19048 images
+Classifications collected:
+c0 : 2283
+c1 : 638
+c2 : 1396
+c3 : 3251
+c4 : 1681
+c5 : 1442
+c6 : 2019
+c7 : 1309
+c8 : 2858
+c9 : 2171
+Failed classifications: 0
+Average classification time 0.12922205381386423
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPerformanceNativeClassifier]' passed (2462.592 seconds).
+Test Suite 'DistractedDriverInferencePerformanceTests' passed at 2019-05-30 17:46:37.552.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4595.955 (4595.957) seconds
+Test Suite 'DistractedDriverInferenceTests.xctest' passed at 2019-05-30 17:46:37.553.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4595.955 (4595.959) seconds
+Test Suite 'Selected tests' passed at 2019-05-30 17:46:37.554.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4595.955 (4595.962) seconds

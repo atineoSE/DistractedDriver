@@ -1,0 +1,49 @@
+Test Suite 'Selected tests' started at 2019-06-01 17:13:02.351
+Test Suite 'DistractedDriverInferenceTests.xctest' started at 2019-06-01 17:13:02.352
+Test Suite 'DistractedDriverInferencePerformanceTests' started at 2019-06-01 17:13:02.352
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCropCenterCrop]' started.
+Using model:
+<VNCoreMLModel: 0x282b3be20>
+Using centerCrop
+Classifying 4467 images
+Classifications collected for model:
+c0 : 554
+c1 : 157
+c2 : 297
+c3 : 502
+c4 : 410
+c5 : 767
+c6 : 448
+c7 : 418
+c8 : 648
+c9 : 266
+Failed classifications (could not make classification): 0
+Classification errors: (1382) / (4467)
+Average classification time 0.029936607102299527
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCropCenterCrop]' passed (134.036 seconds).
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCropScaleFill]' started.
+Using model:
+<VNCoreMLModel: 0x282b18150>
+Using scaleFill
+Classifying 4467 images
+Classifications collected for model:
+c0 : 554
+c1 : 157
+c2 : 297
+c3 : 502
+c4 : 410
+c5 : 767
+c6 : 448
+c7 : 418
+c8 : 648
+c9 : 266
+Failed classifications (could not make classification): 0
+Classification errors: (1382) / (4467)
+Average classification time 0.029755913813642027
+Test Case '-[DistractedDriverInferenceTests.DistractedDriverInferencePerformanceTests testPrecisionNativeClassifierCropScaleFill]' passed (133.086 seconds).
+Test Suite 'DistractedDriverInferencePerformanceTests' passed at 2019-06-01 17:17:29.476.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 267.122 (267.124) seconds
+Test Suite 'DistractedDriverInferenceTests.xctest' passed at 2019-06-01 17:17:29.477.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 267.122 (267.125) seconds
+Test Suite 'Selected tests' passed at 2019-06-01 17:17:29.478.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 267.122 (267.127) seconds
